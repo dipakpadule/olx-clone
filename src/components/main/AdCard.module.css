@@ -1,0 +1,48 @@
+.adcard{
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.adcard a img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+}
+.itemdetails{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.itemprice{
+    color: black;
+    font-weight: bold;
+}
+
+.itemtitle{
+    color: gray;
+    font-family: "Fira Code Light";
+    margin: 2px;
+}
+
+.locationtime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+}
+
+.fav{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #ff0062;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
